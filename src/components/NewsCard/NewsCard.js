@@ -22,19 +22,19 @@ const NewsCard = ({ article: {description, publishedAt, source, title, url, urlT
     return (
         <Card ref={elRefs[i]} className={classNames(classes.card, activeArticle === i ? classes.activeCard : null)}>
             <CardActionArea href={url} target="_blank">
-                <CardMedia className={classes.media} image={urlToImage || "https://pixabay.com/get/g0303b544cf2a9e31a66e40767e334f3520526346a9516f382ab0cdd8dd45f3ba0cc094619c42d0f5f5ca7b7fa939d8ff_640.jpg"} />
+                <CardMedia className={classes.media} image={urlToImage || "https://st2.depositphotos.com/3223379/5688/i/600/depositphotos_56880225-stock-photo-words-news.jpg"} />
                 <div className={classes.details}>
-                    <Typography variant="body2" color="text-secondary" component="h2">{(new Date(publishedAt)).toDateString}</Typography>
-                    <Typography variant="body2" color="text-secondary" component="h2">{source.name}</Typography>
+                    <Typography variant="body2" color="textSecondary" component="h2">{(new Date(publishedAt)).toDateString()}</Typography>
+                    <Typography variant="body2" color="textSecondary" component="h2">{source.name}</Typography>
                 </div>
                 <Typography className={classes.title} variant="h5" gutterBottom>{title}</Typography>
                 <CardContent>
-                    <Typography variant="body2" color="text-secondary" component="p">{description}</Typography>
+                    <Typography variant="body2" color="textSecondary" component="p">{description}</Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions className={classes.cardActions}>
                 <Button size="small" color="primary">Learn More</Button>
-                <Typography variant="h5" color="text-secondary">{i + 1}</Typography>
+                <Typography variant="h5" color="textSecondary">{i + 1}</Typography>
             </CardActions>
         </Card>
     )
