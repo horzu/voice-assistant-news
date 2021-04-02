@@ -2,6 +2,10 @@
 
 This website is a news site with voice assistant.
 
-## Building Steps
+Live site here: "https://horzu.github.io/voice-assistant-news/"
 
-1. Environment created with react and dependencies(npm i @alan-ai/alan-sdk-web @material-ui/core classnames words-to-numbers).
+## Used Techs
+
+1. Alan AI (check "https://alan.app/" for more information)
+
+2. NewsAPI (check "https://newsapi.org/" for more information)
