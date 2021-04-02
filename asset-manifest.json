@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/voice-assistant-news/static/css/main.f074bd0c.chunk.css",
+    "main.js": "/voice-assistant-news/static/js/main.d74b2644.chunk.js",
+    "main.js.map": "/voice-assistant-news/static/js/main.d74b2644.chunk.js.map",
+    "runtime-main.js": "/voice-assistant-news/static/js/runtime-main.f75731d1.js",
+    "runtime-main.js.map": "/voice-assistant-news/static/js/runtime-main.f75731d1.js.map",
+    "static/js/2.192b3232.chunk.js": "/voice-assistant-news/static/js/2.192b3232.chunk.js",
+    "static/js/2.192b3232.chunk.js.map": "/voice-assistant-news/static/js/2.192b3232.chunk.js.map",
+    "index.html": "/voice-assistant-news/index.html",
+    "static/css/main.f074bd0c.chunk.css.map": "/voice-assistant-news/static/css/main.f074bd0c.chunk.css.map",
+    "static/js/2.192b3232.chunk.js.LICENSE.txt": "/voice-assistant-news/static/js/2.192b3232.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f75731d1.js",
+    "static/js/2.192b3232.chunk.js",
+    "static/css/main.f074bd0c.chunk.css",
+    "static/js/main.d74b2644.chunk.js"
+  ]
+}
